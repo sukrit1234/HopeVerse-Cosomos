@@ -1,0 +1,20 @@
+[package]
+name = "cw20"
+description = "Definition and types for the CosmWasm-20 interface"
+
+version       = { workspace = true }
+edition       = { workspace = true }
+license       = { workspace = true }
+repository    = { workspace = true }
+homepage      = { workspace = true }
+documentation = { workspace = true }
+
+[dependencies]
+cw-utils = { workspace = true }
+cosmwasm-schema = { workspace = true }
+cosmwasm-std = { workspace = true }
+schemars = { workspace = true }
+serde = { workspace = true }
+
+[dev-dependencies]
+cosmwasm-schema = { workspace = true }
